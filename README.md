@@ -1,6 +1,5 @@
 # Credit_Risk_Analysis
-# Credit_Risk_Analysis
-Supervised Machine Learning and Credit Risk
+Supervised Machine Learning and Credit Risk Analysis.
 
 ## Overview of the loan prediction risk analysis:   
 Credit risk is an inherently unbalanced classification problem, as good loans easily outnumber risky loans. Different techniques were used to train and evaluate models with unbalanced classes. Various libraries and algorithms were used to build and evaluate models using resampling including: 
@@ -25,22 +24,28 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 The results for the six machine learning models are shown below:      
 
 ### Naive Random Oversampling
+![Naive RandomOver Sampler Results ](https://user-images.githubusercontent.com/111100908/209875791-bb0e8d5b-e387-4199-8058-981065a3e7c8.png)
 
 
 ### SMOTE Oversampling
+![SMOTE OverSampler results](https://user-images.githubusercontent.com/111100908/209875809-8a0c3908-1005-4aa6-b13a-89cd2c094a5d.png)
 
 
-### Undersampling
+### Cluster Centroids Undersampling
+![Cluster Centriods UnderSampler Results](https://user-images.githubusercontent.com/111100908/209875836-5e687095-7ecf-49a9-8ce1-f1f49391a4de.png)
 
 
 ### Combination Under-Over Sampling
 
+![SMOTTEN Combination sampling results](https://user-images.githubusercontent.com/111100908/209875847-3e8344ed-c2d3-4f2c-b1fc-1159f7e35152.png)
 
 ### Balanced Random Forest Classifier
 
+![Balanced RF Model Results](https://user-images.githubusercontent.com/111100908/209875857-a3535551-3546-474b-9773-1947dcd49f1c.png)
 
 ### Easy Ensemble AdaBoost Classifier
 
+![Easy Ensemble Model Results](https://user-images.githubusercontent.com/111100908/209875862-c32f58c8-c0d1-47db-8cb9-5fbb13cf4461.png)
 
 ## Summary:
 All the models bal accuracy score, precision, recall are with in ranges between 0 and 1. The model that is close to 1 is considered to be best ML model.
